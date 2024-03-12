@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<retorno><status>success</status><data><lancamentosRequisitados><item0><codigoWS>1000</codigoWS><previsao><dataDePrevisao>2024-03-14</dataDePrevisao><atrasosFeriado></atrasosFeriado></previsao></item0><item1><codigoWS>1001</codigoWS><previsao><dataDePrevisao>2024-03-14</dataDePrevisao><atrasosFeriado></atrasosFeriado></previsao></item1></lancamentosRequisitados></data></retorno>
