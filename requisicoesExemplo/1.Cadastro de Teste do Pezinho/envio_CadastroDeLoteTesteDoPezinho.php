@@ -72,8 +72,11 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($parametrosParaEnvio));
 *   Utilize a sua Chave Token CTN Encontrada na pagina do site https://portalctn.com.br/novo/areacliente/consultarRequisicoesWS.php
 **/
 $token = 'Inserir sua Chave Token CTN Aqui';
+$retornoTipo = 'application/json'; //json
+//$retornoTipo = 'application/xml'; //xml
+//$retornoTipo = 'text/html'; //html
 $headers = array(
-    'Accept: application/json',
+    'Accept: '.$retornoTipo,
     'Authorization: Bearer ' . $token,
 );
 
@@ -93,6 +96,9 @@ $info = curl_getinfo($ch);
 // Fecha a sessão cURL
 curl_close($ch);
 
+/**
+*   Aqui o dado está sendo tratado caso o $retornoTipo for "application/json"
+**/
 $resposta = json_decode($respostaJSON, true);
 if(isset($resposta['status'])){
     switch($resposta['status']){
@@ -105,7 +111,7 @@ if(isset($resposta['status'])){
         break;
         case 'fail':
             if(isset($resposta['message'])){
-                throw new Exception('Erro: '.$resposta['message']);
+                throw new Exception('Erro: '.print_r($resposta['message'], true));
             }else{
                 throw new Exception('Erro: Erro desconhecido');
             }

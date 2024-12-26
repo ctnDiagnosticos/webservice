@@ -83,7 +83,7 @@ if(isset($resposta['status'])){
         break;
         case 'fail':
             if(isset($resposta['message'])){
-                throw new Exception('Erro: '.$resposta['message']);
+                throw new Exception('Erro: '.print_r($resposta['message'], true));
             }else{
                 throw new Exception('Erro: Erro desconhecido');
             }
