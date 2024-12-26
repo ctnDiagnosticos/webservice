@@ -6,7 +6,7 @@
 
 | **Obrigatório para Teste do Pezinho** | **Obrigatório para Recoleta** | **Campo Descrição**                  | **Codinome no Sistema**        | **Tipo**                                 | **Pode Ser Campo NULL** |
 |---------------------------------------|--------------------------------|---------------------------------------|---------------------------------|------------------------------------------|--------------------------|
-| SIM                                   | SIM                            | Código de Credenciamento             | `codigoCredenciado`            | `INT`                                   | NÃO                      |
+| $${\color{green}SIM}$$                                   | SIM                            | Código de Credenciamento             | `codigoCredenciado`            | `INT`                                   | NÃO                      |
 | SIM                                   | SIM                            | Produto Requisitado                  | `codigoProduto`                | `INT`                                   | NÃO                      |
 | SIM                                   | SIM                            | Nome do Paciente                     | `nome`                         | `VARCHAR(max 250 dígitos)`              | NÃO                      |
 | SIM                                   | SIM                            | Nome da Mãe (Responsável Nº 1)       | `nomeResponsavel`              | `VARCHAR(max 250 dígitos)`              | NÃO                      |
