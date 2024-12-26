@@ -12,7 +12,7 @@ $parametrosParaEnvio = array(
     'laudos' => array(),
 );
 $parametrosParaEnvio['laudos'][] = array(
-    'codigoProduto' => 5, //5 - Produto Ultra, Consulte antes a Lista de Produtos
+    'codigoProduto' => 5, //2 - Produto Básico, Consulte antes a Lista de Produtos
     'nome' => 'Nome do Bebê',
     'nomeResponsavel' => 'Nome da Mãe',
     'dataNascimento' => '2024-03-01',
@@ -35,6 +35,27 @@ $parametrosParaEnvio['laudos'][] = array(
             13   //13 - Pesquisa de Mutação 6985A da MCAD
     ) //Consulte antes a Lista de Exames Complementares
 );
+$parametrosParaEnvio['laudos'][] = array(
+    'codigoProduto' => 4, //4 - Produto Master, Consulte antes a Lista de Produtos
+    'nome' => 'Nome do Bebê',
+    'nomeResponsavel' => 'Nome da Mãe',
+    'dataNascimento' => '2024-02-01',
+    'dataColeta' => '2024-02-11',
+    'ig' => '40',
+    'nomeResponsavelDois' => 'Nome do Pai',
+    'transfusao' => false,
+    'gemeos' => false,
+    'sexo' => 'F',
+    'pesoDoBebe' => 2.6,
+    'cpfDoBebe' => '00000000000',
+    'declaracaoNascimentoVivo' => null,
+    'cep' => null,
+    'endereco' => null,
+    'bairro' => null,
+    'cidade' => null,
+    'estado' => null,
+    'exames' => array() //Consulte antes a Lista de Exames Complementares
+);
 
 // Inicia a sessão cURL
 $ch = curl_init($url);
@@ -48,7 +69,7 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($parametrosParaEnvio));
 /**
 *   Utilize a sua Chave Token CTN Encontrada na pagina do site https://portalctn.com.br/novo/areacliente/consultarRequisicoesWS.php
 **/
-$token = '<Inserir sua Chave Token CTN Aqui>';
+$token = 'Inserir sua Chave Token CTN Aqui';
 $headers = array(
     'Accept: application/json',
     'Authorization: Bearer ' . $token,
