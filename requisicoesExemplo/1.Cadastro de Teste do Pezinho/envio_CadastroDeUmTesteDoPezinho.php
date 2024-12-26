@@ -17,6 +17,7 @@ $parametrosParaEnvio['laudos'][] = array(
     'nomeResponsavel' => 'Nome da Mãe',
     'dataNascimento' => '2024-03-01',
     'dataColeta' => '2024-03-11',
+    'previsaoDataDeRecebimento' => null,
     'ig' => '40',
     'nomeResponsavelDois' => 'Nome do Pai',
     'transfusao' => false,
