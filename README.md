@@ -4,7 +4,7 @@ Este repositório contém exemplos e documentação para o webservice da CTN Dia
 
 ## Visão Geral
 
-O webservice foi desenvolvido para permitir que os usuários enviem solicitações para o laudo do teste do pezinho e verifiquem o status do laudo quando ele for liberado. Neste repositório, você encontrará exemplos de como interagir com os endpoints, bem como exemplos de respostas e retornos esperados para facilitar a integração com o serviço.
+O webservice foi desenvolvido para permitir que os credenciados enviem solicitações para o laudo do teste do pezinho e verifiquem o status do laudo quando ele for liberado. Neste repositório, você encontrará exemplos de como interagir com os endpoints, bem como exemplos de respostas e retornos esperados para facilitar a integração com o serviço.
 
 ## Endpoint YAML
 
