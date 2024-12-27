@@ -1,10 +1,10 @@
 # CTN Diagnósticos WebService
 
-Este repositório contém o código-fonte para o webservice da CTN Diagnósticos. O serviço permite que os usuários enviem requisições para obter o laudo do teste do pezinho e consultem o laudo assim que ele for liberado.
+Este repositório contém exemplos e documentação para o webservice da CTN Diagnósticos. O serviço permite que os usuários enviem requisições para obter o laudo do teste do pezinho e consultem o laudo assim que ele for liberado.
 
 ## Visão Geral
 
-O webservice foi desenvolvido para fornecer uma interface eficiente e segura para o envio de requisições de laudo do teste do pezinho, um exame essencial para diagnóstico precoce de doenças em recém-nascidos. Após o envio da solicitação, o usuário pode acompanhar o status do laudo e obter os resultados quando estiverem disponíveis.
+O webservice foi desenvolvido para permitir que os usuários enviem solicitações para o laudo do teste do pezinho e verifiquem o status do laudo quando ele for liberado. Neste repositório, você encontrará exemplos de como interagir com os endpoints, bem como exemplos de respostas e retornos esperados para facilitar a integração com o serviço.
 
 ## Endpoint YAML
 
