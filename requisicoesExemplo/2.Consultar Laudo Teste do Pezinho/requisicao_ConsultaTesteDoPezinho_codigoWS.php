@@ -24,8 +24,11 @@ try{
 
     // Configura o cabeçalho Authorization com o token Bearer
     $token = 'Inserir sua Chave Token CTN Aqui';
+    $retornoTipo = 'application/json'; //json
+    //$retornoTipo = 'application/xml'; //xml
+    //$retornoTipo = 'text/html'; //html
     $headers = array(
-        'Accept: application/json',
+        'Accept: '.$retornoTipo,
         'Authorization: Bearer ' . $token,
     );
 
