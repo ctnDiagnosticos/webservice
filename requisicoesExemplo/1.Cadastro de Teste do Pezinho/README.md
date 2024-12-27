@@ -25,6 +25,7 @@
 | ![](https://img.shields.io/static/v1?label=&message=NÃO&color=yellow)                                   | ![](https://img.shields.io/static/v1?label=&message=NÃO&color=yellow)                            | Bairro                               | `bairro`                       | `VARCHAR(max 250 dígitos)`              | SIM                      |
 | ![](https://img.shields.io/static/v1?label=&message=NÃO&color=yellow)                                   | ![](https://img.shields.io/static/v1?label=&message=NÃO&color=yellow)                            | Cidade                               | `cidade`                       | `VARCHAR(max 250 dígitos)`              | SIM                      |
 | ![](https://img.shields.io/static/v1?label=&message=NÃO&color=yellow)                                   | ![](https://img.shields.io/static/v1?label=&message=NÃO&color=yellow)                            | Estado                               | `estado`                       | `CHAR(max 2 dígitos)`                   | SIM                      |
+| ![](https://img.shields.io/static/v1?label=&message=NÃO&color=yellow)                                   | ![](https://img.shields.io/static/v1?label=&message=NÃO&color=yellow)                            | Previsão de Data de Recebimento      | `previsaoDataDeRecebimento`    | `DATE(YYYY-mm-dd)`                      | SIM                      |
 
 ---
 

@@ -18,7 +18,7 @@ try{
         'nomeResponsavel' => 'Nome da Mãe',
         'dataNascimento' => '2024-03-01',
         'dataColeta' => '2024-03-11',
-        'previsaoDataDeRecebimento' => '2024-03-13',
+        'previsaoDataDeRecebimento' => '2024-03-13', //usado para calcular posteriormente a previsão de liberação
         'ig' => '40',
         'nomeResponsavelDois' => 'Nome do Pai',
         'transfusao' => false,
@@ -43,7 +43,7 @@ try{
         'nomeResponsavel' => 'Nome da Mãe',
         'dataNascimento' => '2024-02-01',
         'dataColeta' => '2024-02-11',
-        'previsaoDataDeRecebimento' => null,
+        'previsaoDataDeRecebimento' => null, //usado para calcular posteriormente a previsão de liberação
         'ig' => '40',
         'nomeResponsavelDois' => 'Nome do Pai',
         'transfusao' => false,
