@@ -7,10 +7,12 @@ try{
     $urlBase = 'https://homologacao.portalctn.com.br'; // HOMOLOGAÇÃO
 
     // URL do serviço ou recurso que você está acessando
-    $url = $urlBase.'/testeDoPezinhoLaudo/';
+    $url = $urlBase.'/testeDoPezinho/laudo/';
 
     $parametros = array();
-    $parametros['codigo'] = '2600001';
+    $parametros['tipoDeCodigo'] = 'CTN';
+    //$parametros['tipoDeCodigo'] = 'WS'; //codigo recebido pelo WS
+    $parametros['codigo'] = '2600000';
     $parametros['semLogotipo'] = true;
 
     // Adiciona os parâmetros à URL
